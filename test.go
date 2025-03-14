@@ -18,9 +18,14 @@ func main() {
 	switch choise {
 	case "+":
 		fmt.Println(num1, " + ", num2, " = ", sum(num1, num2))
+	case "*":
+		fmt.Println(num1, " * ", num2, " = ", num1*num2)
+	case ":":
+		fmt.Println(num1, " : ", num2, " = ", num1/num2)
+	case "-":
+		fmt.Println(num1, " - ", num2, " = ", num1-num2)
 	default:
 		fmt.Println("Unavalibale")
-
 	}
 
 }
